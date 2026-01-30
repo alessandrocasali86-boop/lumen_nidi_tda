@@ -1,0 +1,24 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+
+# data: non versionare sorgenti e derived di default
+data/raw/
+data/derived/**
+
+# results: di solito no
+results/**
+
+# notebooks
+.ipynb_checkpoints/
+
+# logs
+*.log
+
+
