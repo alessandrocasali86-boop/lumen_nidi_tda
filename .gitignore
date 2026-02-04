@@ -27,3 +27,5 @@ results/**
 !results/rests_sequences.json
 !results/segmentation_report.json
 !results/segmentation_report.md
+
+data/raw/**
