@@ -24,3 +24,6 @@ results/**
 !data/sample/
 !data/sample/**
 
+!results/rests_sequences.json
+!results/segmentation_report.json
+!results/segmentation_report.md

@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Segmentation verification report",
+    "generated_at": "2026-02-04T16:12:46",
+    "input": "/Users/alessandrocasali/Documents/Dottorato/Nidi/TDA_bis/results/rests_sequences.json"
+  },
+  "datasets": {
+    "lumen": {
+      "rests_eighth": {
+        "stats": {
+          "n": 19,
+          "sum": 39.5,
+          "min": 0.5,
+          "max": 4.5,
+          "mean": 2.0789473684210527,
+          "median": 1.5,
+          "stdev": 1.4802485379394983,
+          "quantiles": {
+            "q25": 0.75,
+            "q50": 1.5,
+            "q75": 3.5
+          }
+        }
+      },
+      "rests_quarter": {
+        "stats": {
+          "n": 19,
+          "sum": 19.75,
+          "min": 0.25,
+          "max": 2.25,
+          "mean": 1.0394736842105263,
+          "median": 0.75,
+          "stdev": 0.7401242689697491,
+          "quantiles": {
+            "q25": 0.375,
+            "q50": 0.75,
+            "q75": 1.75
+          }
+        }
+      },
+      "rest_intervals_quarter": {
+        "count": 19,
+        "sorted_nonoverlapping": true,
+        "length_stats": {
+          "n": 19,
+          "sum": 19.75,
+          "min": 0.25,
+          "max": 2.25,
+          "mean": 1.0394736842105263,
+          "median": 0.75,
+          "stdev": 0.7401242689697491,
+          "quantiles": {
+            "q25": 0.375,
+            "q50": 0.75,
+            "q75": 1.75
+          }
+        }
+      },
+      "active_gaps_quarter": {
+        "count": 18,
+        "stats": {
+          "n": 18,
+          "sum": 5.25,
+          "min": 0.25,
+          "max": 0.5,
+          "mean": 0.2916666666666667,
+          "median": 0.25,
+          "stdev": 0.09316949906249124,
+          "quantiles": {
+            "q25": 0.25,
+            "q50": 0.25,
+            "q75": 0.25
+          }
+        }
+      }
+    },
+    "nidi": {
+      "rests_eighth": {
+        "stats": {
+          "n": 18,
+          "sum": 35.5,
+          "min": 0.5,
+          "max": 4.0,
+          "mean": 1.9722222222222223,
+          "median": 1.5,
+          "stdev": 1.2413279428613517,
+          "quantiles": {
+            "q25": 1.0,
+            "q50": 1.5,
+            "q75": 3.0
+          }
+        }
+      },
+      "rests_quarter": {
+        "stats": {
+          "n": 18,
+          "sum": 17.75,
+          "min": 0.25,
+          "max": 2.0,
+          "mean": 0.9861111111111112,
+          "median": 0.75,
+          "stdev": 0.6206639714306759,
+          "quantiles": {
+            "q25": 0.5,
+            "q50": 0.75,
+            "q75": 1.5
+          }
+        }
+      },
+      "rest_intervals_quarter": {
+        "count": 18,
+        "sorted_nonoverlapping": true,
+        "length_stats": {
+          "n": 18,
+          "sum": 17.75,
+          "min": 0.25,
+          "max": 2.0,
+          "mean": 0.9861111111111112,
+          "median": 0.75,
+          "stdev": 0.6206639714306759,
+          "quantiles": {
+            "q25": 0.5,
+            "q50": 0.75,
+            "q75": 1.5
+          }
+        }
+      },
+      "active_gaps_quarter": {
+        "count": 17,
+        "stats": {
+          "n": 17,
+          "sum": 11.0,
+          "min": 0.5,
+          "max": 1.0,
+          "mean": 0.6470588235294118,
+          "median": 0.5,
+          "stdev": 0.22782254977690686,
+          "quantiles": {
+            "q25": 0.5,
+            "q50": 0.5,
+            "q75": 1.0
+          }
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "rests_eighth_lumen_vs_nidi": {
+      "len_a": 19,
+      "len_b": 18,
+      "min_len": 18,
+      "prefix_match_len": 0,
+      "first_mismatch": {
+        "index": 0,
+        "a": 1.0,
+        "b": 3.0,
+        "delta": -2.0
+      }
+    },
+    "rest_counts": {
+      "lumen": 19,
+      "nidi": 18,
+      "delta": 1
+    },
+    "total_rest_eighth": {
+      "lumen": 39.5,
+      "nidi": 35.5,
+      "delta": 4.0
+    }
+  }
+}

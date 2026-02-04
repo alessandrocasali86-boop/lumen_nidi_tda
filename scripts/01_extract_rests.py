@@ -23,8 +23,7 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 EPS = 1e-9
 
 EXPECTED_NIDI_PANEL1_EIGHTH = [
-    3, 2.5, 1, 3.5, 1, 4, 1.5, 0.5, 1.5,
-    3, 2.5, 0.5, 3.5, 1, 4, 1.5, 0.5, 0.5
+    3, 2.5, 1, 3.5, 1, 4, 1.5, 0.5, 1.5, 3, 2.5, 0.5, 3.5, 1, 4, 1.5, 0.5, 0.5
 ]
 
 

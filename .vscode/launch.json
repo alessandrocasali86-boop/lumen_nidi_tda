@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "01 Extract rests (Lumen vs Nidi)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/01_extract_rests.py",
+      "args": [
+        "--lumen", "data/derived/lumen/lumen_features.json",
+        "--nidi",  "data/derived/nidi1/nidi1_features.json",
+        "--out",   "results/rests_sequences.json",
+        "--check-nidi-panel1"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "02 Verify segmentation (fixed input)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/02_verify_segmentation.py",
+      "args": [
+        "--in", "results/rests_sequences.json",
+        "--out-json", "results/segmentation_report.json",
+        "--out-md", "results/segmentation_report.md"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
